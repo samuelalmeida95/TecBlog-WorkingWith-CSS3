@@ -1,0 +1,22 @@
+
+.relative {
+    border: 1px solid red;
+    position: relative; /* top, rigth, left , bottom*/
+    top: 20px;
+  } /*movimenta o bloco da sua posicao de acordo com as propriedades top, rigth, left, bottom*/
+  
+  .absolute {
+    background: #f2f2f2;
+    position: absolute;
+    border: 1px solid red;
+    top: 80px;
+    right: 80px;
+  } /* tira o elemento da posicao original e o lugar deixado é ocupado pelo proximo elemento*/
+  
+  .fixed {
+    background: #f2f2f2;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+  } /* mantem o elemento na posicao fixa em relacao a uma referencia*/
+  

@@ -1,0 +1,36 @@
+/* formatando links*/
+a {
+  text-decoration: none; /* add underline*/
+}
+
+/* links nao visitados e visitados*/
+#area-cabecalho a:link,
+#area-cabecalho a:visited {
+  color: #fff;
+  padding: 8px 12px;
+}
+
+/* mouse passa por cima */
+#area-cabecalho a:hover {
+  background: #fff;
+  color: #f7b600;
+  text-decoration: none;
+}
+
+/*links ativos quando clicados */
+a:active {
+  color: #e4f371;
+}
+
+a:link,
+a:visited {
+  color: #f6b000;
+ 
+}
+
+/* mouse passa por cima */
+a:hover {
+  background: #fff;
+  color: #f7b600;
+  text-decoration: underline;
+}
